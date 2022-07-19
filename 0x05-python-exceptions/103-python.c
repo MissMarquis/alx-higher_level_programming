@@ -80,7 +80,7 @@ void print_python_bytes(PyObject *p)
   printf("  size: %li\n", size_bytes);
   fflush(stdout);
   printf("  trying string: %s\n", buffer);
- i fflush(stdout);
+  fflush(stdout);
   if (size_bytes < 10)
     printf("  first %li bytes:", size_bytes + 1);
   else
